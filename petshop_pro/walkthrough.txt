@@ -1,0 +1,1 @@
+1st flag: add the pets to your cart and when you are about to submit the check out button inspect the element, and you'll see a hidden field. Delete the hidden and change the price tags to 0, after that you check out and you'll find the flag.
