@@ -1,0 +1,5 @@
+1st flag: Login user, password
+2nd flag: view your post and change the url parameter to id=b or id=2 (this is the admin account)
+3rd flag: <input type="hidden" name="user_id" value="3"> on inspect elements the value is 2, change it to 3 and create the post
+4th flag: try brute forcing the id to see if there are any other posts and eventually you'll get https://83497135b0351d92726cca824d3b83cc.ctf.hacker101.com/index.php?page=view.php&id=945
+5th flag: go and edit one of your posts and pass the paramater &id=b for example
